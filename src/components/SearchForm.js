@@ -1,10 +1,27 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 
-export default function SearchForm() {
+export default function SearchForm(props) {
  
-  return (
-    <section className="search-form">
-     // Add a search form here
-    </section>
-  );
+
+const handleChange = event => {
+  props.setSearch(event.target.value);
 }
+
+
+
+return (
+
+<form>
+  <label htmlFor="search">
+    <input type="text" onChange={handleChange} name="search" placeholder="enter search value"/>
+  </label>
+</form>
+
+
+
+
+
+
+);
+
+};
