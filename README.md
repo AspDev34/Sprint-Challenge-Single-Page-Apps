@@ -29,6 +29,8 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 > Answer:
 
+Client side routing is less taxing on the browser. Instead of depending on the browser for navigation (which increases network activity), client side routing allows it to be done on the client computer without constant network calls. 
+
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
